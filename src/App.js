@@ -15,7 +15,7 @@ function App() {
   }, []);
 
   const onSuccess = (response) => {
-    console.log("SUCCESS", response);
+    console.log("SUCCESS response", response);
   };
   const onFailure = (response) => {
     console.log("FAILED", response);
